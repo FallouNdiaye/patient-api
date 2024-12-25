@@ -9,15 +9,24 @@ git clone https://github.com/FallouNdiaye/patient-api.git
 ## Assurez-vous d'avoir les prérequis suivants
 
 Java (JDK 11 ou supérieur)
+
 Maven
+
 Ouvrez le projet dans un IDE
 
 Importez le projet dans un IDE comme Eclipse ou IntelliJ IDEA.
+
 Si vous utilisez Eclipse, assurez-vous d'installer le plugin Spring (Spring Tools).
+
+MongoDB : Une instance locale ou distante de MongoDB.
+## Créez la base de données sur MongoDB:
+Créer la base de données patient_db :
+
 ## Construisez et exécutez le projet
 Ouvrez un terminal dans le dossier du projet et exécutez :
 
 mvn clean install
+
 mvn spring-boot:run
 
 
